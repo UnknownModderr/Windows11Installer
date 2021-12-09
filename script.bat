@@ -1,7 +1,6 @@
 TITLE Windows 11 Installer
 
-diskpart /s diskscript.txt
+REG ADD HKLM\SYSTEM\Setup\LabConfig
+REG ADD HKLM\SYSTEM\Setup\LabConfig /v BypassTPMCheck /t REG_DWORD /d 1
 
-DISM /apply-image /imagefile:D:\sources\install.wim /index:1 /applydir:Z:\
-
-bcdboot Z:\Windows /s G: /f ALL
+exit

@@ -1,9 +1,0 @@
-select disk 0
-conv gpt
-create par efi size=512
-format fs=fat32 quick
-assign letter G
-create par pri
-format quick
-assign letter Z
-exit
