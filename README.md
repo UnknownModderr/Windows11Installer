@@ -9,7 +9,7 @@ According to Microsoft this will block future updates from being delivered, but 
 ## Instructions
 1. Put the script on a USB
 2. Proceed with the steps of the installer until you see the purple "Install now" screen.
-3. Press Shift+F10 to open the console, go to the USB drive's directory (Usually D:) and type "start script.bat"
+3. Press Shift+F10 to open the console, go to the USB drive's directory (Usually C:) and type "start Windows11Installer.bat"
 4. When the script is done, proceed with the steps of the installer.
 
 ## ℹ Information ℹ
